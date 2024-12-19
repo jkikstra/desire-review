@@ -1,0 +1,57 @@
+﻿variable,DLE.cleansector,elec,energy.type,rescom,industry,transport,method
+Appliance|clean_cooking_fuel,Nutrition,elec,op,1,0,0,manual classification
+Appliance|clean_cooking_fuel,Nutrition,non.elec,op,1,0,0,manual classification
+Appliance|clean_cooking_fuel,Nutrition,elec,con,0,1,0,LCA secondary literature CO2eq
+Appliance|clean_cooking_fuel,Nutrition,non.elec,con,0,0.87,0.13,LCA secondary literature CO2eq
+Clothing|clothing,Clothing,elec,op,0,1,0,EEMRIO indirect final energy extension of monetary flows
+Clothing|clothing,Clothing,non.elec,op,0.05,0.9,0.05,EEMRIO indirect final energy extension of monetary flows
+Clothing|footwear,Clothing,elec,op,0,1,0,EEMRIO indirect final energy extension of monetary flows
+Clothing|footwear,Clothing,non.elec,op,0.05,0.9,0.05,EEMRIO indirect final energy extension of monetary flows
+Health care,Health,elec,op,0.05,0.95,0,EEMRIO indirect final energy extension of monetary flows
+Health care,Health,non.elec,op,0.09,0.9,0.01,EEMRIO indirect final energy extension of monetary flows
+Education|lower_secondary,Education,elec,op,0.05,0.95,0,EEMRIO indirect final energy extension of monetary flows
+Education|lower_secondary,Education,non.elec,op,0.19,0.8,0.01,EEMRIO indirect final energy extension of monetary flows
+Appliance|mobile_telephone,Household appliances,elec,op,1,0,0,manual classification
+Appliance|mobile_telephone,Household appliances,non.elec,op,1,0,0,manual classification
+Appliance|mobile_telephone,Household appliances,elec,con,0,1,0,LCA secondary literature CO2eq
+Appliance|mobile_telephone,Household appliances,non.elec,con,0,0.87,0.13,LCA secondary literature CO2eq
+Nutrition,Nutrition,elec,op,0,1,0,EEMRIO indirect final energy extension of monetary flows
+Nutrition,Nutrition,non.elec,op,0,0.9,0.1,EEMRIO indirect final energy extension of monetary flows
+Education|primary,Education,elec,op,0.05,0.95,0,EEMRIO indirect final energy extension of monetary flows
+Education|primary,Education,non.elec,op,0.19,0.8,0.01,EEMRIO indirect final energy extension of monetary flows
+Appliance|refrigerator,Household appliances,elec,op,1,0,0,manual classification
+Appliance|refrigerator,Household appliances,non.elec,op,1,0,0,manual classification
+Appliance|refrigerator,Household appliances,elec,con,0,1,0,LCA secondary literature CO2eq
+Appliance|refrigerator,Household appliances,non.elec,con,0,0.96,0.04,LCA secondary literature CO2eq
+Roads,Roads,elec,con,0,1,0,LCA secondary literature CO2eq
+Roads,Roads,non.elec,con,0,0.95,0.05,LCA secondary literature CO2eq
+Sanitation,Sanitation,elec,op,1,0,0,manual classification
+Sanitation,Sanitation,non.elec,op,1,0,0,manual classification
+Sanitation,Sanitation,elec,con,0,1,0,LCA secondary literature energy
+Sanitation,Sanitation,non.elec,con,0,0.95,0.05,LCA secondary literature energy
+Appliance|television,Household appliances,elec,op,1,0,0,manual classification
+Appliance|television,Household appliances,non.elec,op,1,0,0,manual classification
+Appliance|television,Household appliances,elec,con,0,1,0,LCA secondary literature energy
+Appliance|television,Household appliances,non.elec,con,0,0.99,0.01,LCA secondary literature energy
+Cooling CON|total,Cooling,elec,con,0,1,0,LCA secondary literature CO2eq
+Cooling CON|total,Cooling,non.elec,con,0,0.87,0.13,LCA secondary literature CO2eq
+Cooling OP|total,Cooling,elec,op,1,0,0,manual classification
+Cooling OP|total,Cooling,non.elec,op,1,0,0,manual classification
+Heating CON|total,Heating,elec,con,0,1,0,"LCA secondary literature CO2eq, of other technology/appliance"
+Heating CON|total,Heating,non.elec,con,0,0.96,0.04,"LCA secondary literature CO2eq, of other technology/appliance"
+Heating OP|total,Heating,elec,op,1,0,0,manual classification
+Heating OP|total,Heating,non.elec,op,1,0,0,manual classification
+Hot Water OP|total,Heating,elec,op,1,0,0,manual classification
+Hot Water OP|total,Heating,non.elec,op,1,0,0,manual classification
+Hot Water OP|total,Heating,elec,con,0,1,0,"LCA secondary literature CO2eq, of other technology/appliance"
+Hot Water OP|total,Heating,non.elec,con,0,0.96,0.04,"LCA secondary literature CO2eq, of other technology/appliance"
+Housing|total,Housing,elec,con,0,1,0,LCA secondary literature energy
+Housing|total,Housing,non.elec,con,0,0.93,0.07,LCA secondary literature energy
+Transport,Transport,elec,op,0,0,1,manual classification
+Transport,Transport,non.elec,op,0,0,1,manual classification
+Transport,Transport,elec,con,0,1,0,not yet implemented 
+Transport,Transport,non.elec,con,0,1,0,not yet implemented 
+Water,Water,elec,op,1,0,0,manual classification
+Water,Water,non.elec,op,1,0,0,manual classification
+Water,Water,elec,con,0,1,0,LCA secondary literature CO2eq
+Water,Water,non.elec,con,0,0.98,0.02,LCA secondary literature CO2eq

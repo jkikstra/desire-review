@@ -1,0 +1,16 @@
+Taken from: https://iiasahub.sharepoint.com/:f:/r/sites/eceprog/Shared%20Documents/SharedSocioEconomicPathways2023/WP%20-%20RC%20demands/Output?csf=1&web=1&e=tQ6dpb
+
+
+Use: calibrated version {type = calib}
+
+Non-clean:
+Variable: "resid_cook_non-comm" = traditional biomass 
+All variables to use: grey-zone [clean or non-clean] look at size of all {commodity_group = biomass} and also {commodity_group = coal} but not {originalmodel = sturm_zcomm} 
+
+Residential vs commercial:
+- aggregate all "sturm_zcomm" / all others
+
+Data is in EJ/yr.
+
+
+Note: will be updated later in the SSP update process.

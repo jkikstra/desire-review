@@ -1,0 +1,23 @@
+# ignore the following
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+
+data/*
+data-raw/DLE_scaleup/Paper_data_final/input
+analyses/tables/*
+analyses/figures/*
+
+tests/testthat/testdata/integration/output/*
+tests/testthat/testdata/output/*
+
+# do not ignore
+!data/README.txt
+!data/SSP1_2040_lctFALSE_country.csv
+!data/SSP2_2040_lctFALSE_country.csv
+!analyses/tables/README.txt
+!analyses/figures/README.txt
+!tests/testthat/testdata/integration/output/README.txt
+!tests/testthat/testdata/output/README.txt

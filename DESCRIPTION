@@ -1,0 +1,32 @@
+Package: desire-review
+Title: DESIRE
+Version: 1.0.0
+Authors@R:
+    person(given = "Jarmo",
+           family = "Kikstra",
+           role = c("aut", "cre"),
+           email = "kikstra@iiasa.ac.at",
+           comment = c(ORCID = "0000-0001-9405-1228"))
+Description: This packages consists of a set of tools for the Decent Living project.
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    renv
+    here
+    tidyverse
+    vroom
+    zoo
+    lestat
+    countrycode
+    readxl
+    plotly
+    htmlwidgets
+    sitools
+    lme4
+    scales
+    logger
+    testthat
+    styler

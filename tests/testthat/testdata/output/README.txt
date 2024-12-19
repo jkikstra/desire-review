@@ -1,0 +1,1 @@
+This folder holds data that is produced by the test scripts.
